@@ -8,7 +8,7 @@
 #include <sys/wait.h>
 #include <string.h>
 
-int _putchaar(char c);
+int _putchar(char c);
 int _strlen(const char *s);
 char *_strcpy(char *dest, const char *src);
 void _puts(char *str);
