@@ -1,19 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
-  *main - function to return sum of two numbers
-  *
-  *Return: Always 0.
+  *_puts - prints a string
+  *@str: pointer to the string to print
+  *Return: void
   */
-int main(void)
+void _puts(char *str)
 {
-	int a;
-	int b;
-	int sum;
-
-	a = 5;
-	b = 10;
-	sum = a + b;
-	printf("The sum of two numbers is %d\n", sum);
-
-	return (0);
+	int i = 0;
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
 }
